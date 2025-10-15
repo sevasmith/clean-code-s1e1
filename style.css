@@ -4,26 +4,26 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.header {
+header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.header img {
+header img {
   width: 100%;
 }
-.header .details-link {
+header .details-link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-  .header {
+  header {
     text-align: center;
   }
 }
 
-.main {
+main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -41,7 +41,7 @@ ul {
   padding: 0px;
 }
 li,
-h3 {
+h2 {
   list-style: none;
 }
 input,
@@ -61,7 +61,7 @@ button:hover {
   color: #3a3A3a;
 }
 /* Heading */
-h3,
+h2,
 label[for="new-task"] {
   color: #333;
   font-weight: 700;
